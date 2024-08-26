@@ -8,7 +8,7 @@ class ProcessJobs:
 
     def read(self, path: str) -> List[Dict]:
         with open(path, mode="r", encoding="utf8") as file:
-            jobs_reader = csv.DictReader(file, delimiter= ",")
+            jobs_reader = csv.DictReader(file, delimiter=",")
 
             for row in jobs_reader:
                 self.jobs_list.append(row)

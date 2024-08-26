@@ -21,7 +21,7 @@ def read_brazilian_file(path: str) -> List[Dict]:
     result = process.jobs_list
 
     for job in result:
-        # job["title"] = job.pop("titulo")
+        job["title"] = job.pop("titulo")
         job["salary"] = job.pop("salario")
         job["type"] = job.pop("tipo")
 

@@ -19,7 +19,7 @@ class ProcessJobs:
 
         for job in self.jobs_list:
             if "type" in job:
-                job_types.add(job["type"])
+                job_types.add(job["job_type"])
         return list(job_types)
 
     def filter_by_multiple_criteria(self) -> List[dict]:

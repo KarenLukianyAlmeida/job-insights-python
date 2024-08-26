@@ -18,7 +18,7 @@ class ProcessSalaries(ProcessJobs):
         return max_salary_listed
 
     def get_min_salary(self) -> int:
-        min_salary_listed = 0
+        min_salary_listed = self.jobs_list[0]
 
         for job in self.jobs_list:
             salary = job.get("min_salary")

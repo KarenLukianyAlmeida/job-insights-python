@@ -9,5 +9,7 @@ class ProcessIndustries(ProcessJobs):
     def get_unique_industries(self) -> List[str]:
         industries = set()
         for job in self.jobs_list:
-            industries.add(job["industry"])
+            industry = job.get("industry")
+            if industry:
+                industries.add(industry)
         return list(industries)

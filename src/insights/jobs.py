@@ -18,7 +18,7 @@ class ProcessJobs:
         job_type = set()
 
         for job in self.jobs_list:
-            if "type" in job:
+            if "job_type" in job:
                 job_type.add(job["job_type"])
         return list(job_type)
 

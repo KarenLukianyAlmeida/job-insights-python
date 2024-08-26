@@ -14,7 +14,6 @@ class ProcessJobs:
                 self.jobs_list.append(row)
         return self.jobs_list
 
-
     def get_unique_job_types(self) -> List[str]:
         job_types = set()
 
@@ -22,7 +21,6 @@ class ProcessJobs:
             if "type" in job:
                 job_types.add(job["type"])
         return list(job_types)
-
 
     def filter_by_multiple_criteria(self) -> List[dict]:
         pass

@@ -16,7 +16,12 @@ class ProcessJobs:
 
 
     def get_unique_job_types(self) -> List[str]:
-        pass
+        job_types = set()
+
+        for job in self.jobs_list:
+            if "type" in job:
+                job_types.add(job["type"])
+        return list(job_types)
 
 
     def filter_by_multiple_criteria(self) -> List[dict]:

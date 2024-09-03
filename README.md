@@ -1,25 +1,17 @@
 
 # Skills Developed
 
-- __Interactive Terminal:__ Proficient in using the ***Python*** interactive terminal.
+- __Interacting with MySQL:__ Gained proficiency in interacting with a relational database using MySQL.
   
-- __Control Structures:__ Implemented conditional statements and loops effectively.
+- __Layered Architecture Implementation:__ Developed an API using a layered architecture approach to ensure organized and maintainable code.
   
-- __Built-in Functions:__ Utilized Python's built-in functions for efficient coding.
+- __Data Validation:__ Implemented robust data validation techniques to ensure the integrity of information received by the API.
   
-- __Exception Handling:__ Managed errors and exceptions gracefully in the code.
-  
-- __File Manipulation:__ Performed file operations such as reading, writing, and managing files.
-  
-- __Function Writing:__ Created custom functions to modularize and optimize the code.
-  
-- __Testing with Pytest:__ Developed and executed tests using ***Pytest*** to ensure code reliability.
-  
-- __Custom Modules:__ Wrote and imported custom Python modules to enhance code reusability.
+- __API Testing:__ Wrote comprehensive tests to validate the functionality of API endpoints, ensuring reliable and error-free operations.
 
 # What was developed
 
-This project implemented analyses based on a dataset of jobs contained in a CSV file.
+The RESTful API developed is a sales management system where it is possible to create, view, delete, and update products and sales. MySQL was used to manage the data.
 
 # Features
 
@@ -71,20 +63,15 @@ This project implemented analyses based on a dataset of jobs contained in a CSV 
 git clone https://github.com/KarenLukianyAlmeida/job-insights-python.git
 ```
 
-2. __Create the virtual environment__
-
-```bash
-python3 -m venv .venv
-```
-
-3. __Activate the virtual environment__
-
-```bash
-source .venv/bin/activate
-```
-
-4. __Install the dependencies in the virtual environment__
+2. __Install the dependencies__
    
 ```bash
-python3 -m pip install -r dev-requirements.txt
+npm install
+```
+3. __Start the backend and db containers from the compose__
+
+- The application will be available at http://localhost:3001 in development mode.
+
+```bash
+docker-compose up -d
 ```

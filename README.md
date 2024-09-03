@@ -36,7 +36,7 @@ The test verifies if the function correctly returns the number of occurrences of
 
 ### On src/insights/industries.py
 
-__Method get_unique_industries:__ Should return a list of unique values present in the `industry` column.
+1. __Method get_unique_industries:__ Should return a list of unique values present in the `industry` column.
 
 ### On src/insights/salaries.py
 

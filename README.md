@@ -1,7 +1,7 @@
 
 # What was developed
 
-This project implemented analyses based on a dataset of jobs contained in a CSV file.
+This project aims to analyze data from a CSV file. For this, methods were created to filter and return this information. The CSV file contains details about different jobs listed on the Glassdoor platform.
 
 # Skills Developed
 

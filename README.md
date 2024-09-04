@@ -1,4 +1,8 @@
 
+# What was developed
+
+This project implemented analyses based on a dataset of jobs contained in a CSV file.
+
 # Skills Developed
 
 - __Interactive Terminal:__ Proficient in using the ***Python*** interactive terminal.
@@ -16,10 +20,6 @@
 - __Testing with Pytest:__ Developed and executed tests using ***Pytest*** to ensure code reliability.
   
 - __Custom Modules:__ Wrote and imported custom Python modules to enhance code reusability.
-
-# What was developed
-
-This project implemented analyses based on a dataset of jobs contained in a CSV file.
   
 # Features
 

@@ -1,7 +1,11 @@
 
 # What was developed
 
-This project aims to analyze data from a CSV file. For this, methods were created to filter and return this information. The CSV file contains details about different jobs listed on the Glassdoor platform.
+This project aims to analyze data from a CSV file. Methods were created to filter and return this information. The CSV file contains details about different jobs listed on the Glassdoor platform.
+
+## Technologies
+
+> Back-end: Python, Pytest and VS Code. 
 
 # Skills Developed
 

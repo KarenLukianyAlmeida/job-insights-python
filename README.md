@@ -5,9 +5,9 @@ This project aims to analyze data from a CSV file. Methods were created to filte
 
 ## Technologies
 
-> Back-end: Python, Pytest and VS Code. 
+> Python | Pytest | VS Code. 
 
-# Skills Developed
+## Skills Developed
 
 - __Interactive Terminal:__ Proficient in using the ***Python*** interactive terminal.
   
@@ -25,7 +25,7 @@ This project aims to analyze data from a CSV file. Methods were created to filte
   
 - __Custom Modules:__ Wrote and imported custom Python modules to enhance code reusability.
   
-# Features
+## Features
 
 <details>
   <summary><strong>On tests/counter/test_counter.py</strong></summary><br />
@@ -67,7 +67,7 @@ This project aims to analyze data from a CSV file. Methods were created to filte
 
 </details>
 
-# Execute the project
+## Execute the project
 
 1. __Clone the repository__
 
